@@ -14,16 +14,14 @@ XY_CLEARING = 0.8;
 Z_CLEARING = 1.2;
 KINDLE_WIDTH = 142 + XY_CLEARING;
 KINDLE_HEIGHT = 159 + XY_CLEARING;
-//KINDLE_WIDTH = 42 + XY_CLEARING;
-//KINDLE_HEIGHT = 59 + XY_CLEARING;
 
 KINDLE_MAX_THICKNESS = 8.4 + Z_CLEARING;
 KINDLE_MIN_THICKNESS = 3.4 + Z_CLEARING;
-WALL_THICKNESS = 1.2; //vs 0.8
+WALL_THICKNESS = 1.2; //vs 0.8 for PLA
 
 // We raise the case where the Kindle thickness is only 3.4mm
 RAISED_WIDTH = 80; // 4mm gap 
-// RAISED_WIDTH = 20;
+// RAISED_WIDTH = 20; // PLA version
 RAISED_HEIGHT = 0.45 * KINDLE_HEIGHT;
 RAISED_THICKNESS = KINDLE_MAX_THICKNESS - KINDLE_MIN_THICKNESS;
 NEAR_ZERO = 0.001;
@@ -118,6 +116,7 @@ module case(){
 if(TEST_MODEL){
     intersection(){
         case();
+        // use this version to print the upper left part of the model
         // translate([-0.2*KINDLE_WIDTH, 0.26*KINDLE_HEIGHT, 0])
         // cube([1.5*RAISED_WIDTH, 0.5*KINDLE_HEIGHT, 2*KINDLE_MAX_THICKNESS], center = true);
         translate([-0.2*KINDLE_WIDTH - 0.5*RAISED_WIDTH, 0.4*KINDLE_HEIGHT, 0])
