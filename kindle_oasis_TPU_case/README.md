@@ -1,6 +1,6 @@
 # Kindle Oasis TPU Case
 
-WIP
+Soft cover for Kindle Oasis 10th Gen. If you have another one and are familiar with OpenScad, you should be able to change the parameters to fit your model.
 
 The PLA version can be found [here](../kindle_oasis_case/).
 
