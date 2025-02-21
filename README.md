@@ -8,6 +8,8 @@ Work in progress.
 
 [PLA version](kindle_oasis_case/)
 
+![Kindle inside the printed PLA case](kindle_oasis_TPU_case/assets/kindle_inside_tpu_case_SM.JPG)
+
 [TPU version](kindle_oasis_TPU_case/)
 
 ### Grove Sensor Holder
