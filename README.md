@@ -1,6 +1,6 @@
-# OpenSCAD projects
+# CAD projects using CadQuery and OpenSCAD
 
-Work in progress.
+Work in progress. Latest (small) projects with CadQuery can be found [here](CadQuery).
 
 ### Kindle Oasis Case
 
